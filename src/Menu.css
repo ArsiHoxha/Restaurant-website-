@@ -1,0 +1,90 @@
+
+.IMAGE-1-menu{
+  position: relative;
+  height: 120vh;
+  image-rendering: -webkit-optimize-contrast;
+
+}
+
+.content-menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  
+}
+.content-menu span.img-text-menu{
+    background-color: #333;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1.5rem;
+    letter-spacing: 10px;
+}
+
+.h3{
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  font: 1.3rem;
+  text-align: center;
+}
+
+
+.kategoria{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+
+}
+
+.njeProve{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.njeProve img{
+  width: 90vh;
+  height: 70vh;
+}
+
+
+.njeProve h2{
+  font-size: 2.5rem;
+}
+
+
+.njeProve h1{
+  font-size: 2.5rem;
+}
+.njeProve {
+  position: relative;
+}
+
+.njeProve button {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  top: 45%;
+  height: 7vh;
+  width: 27vh;
+  transform: translateX(-50%);
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease-in-out;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.njeProve:hover button {
+  opacity: 1; /* Show button on hover */
+}

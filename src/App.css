@@ -1,0 +1,367 @@
+body{
+  background-color: rgb(39, 39, 39);
+  color: white;
+  height: 100vh;
+}
+.header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(43, 42, 42);
+  height: 5vh;
+}
+.header div{
+  font-size: 20px;
+  font-weight: bold;
+}
+.IMAGE-1{
+  position: relative;
+  height: 120vh;
+  image-rendering: -webkit-optimize-contrast;
+
+}
+a{
+  color: white;
+}
+.IMAGE-2{
+  position: relative;
+  height: 120vh;
+  image-rendering: -webkit-optimize-contrast;
+
+}
+.IMAGE-3{
+  position: relative;
+  height: 200vh;
+  image-rendering: -webkit-optimize-contrast;
+
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+}
+.content span.img-text{
+    background-color: #333;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1.5rem;
+    letter-spacing: 10px;
+}
+
+.h3{
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  font: 1.3rem;
+  text-align: center;
+}
+
+.text-box{
+  padding: 5rem 1rem;
+  text-align: justify;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.text-box h3 {
+  color: #ffffff;
+  position: relative;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.text-box p {
+  color: #ececec;
+  line-height: 1.6;
+  width: 50vh;
+  
+}
+
+.text-box img {
+  width:50vh;
+  max-height: 400px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+#butoniMenu {
+  width: 150px;
+  height: 60px;
+  font-size: 1.5rem;
+  
+
+}#contact {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#contacte-first {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#contacte-sec {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Add additional styling as needed */
+/* Add this CSS to your stylesheet or create a new stylesheet */
+
+.content3 {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 20px; /* Adjust padding based on your design preferences */
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 50vh;
+  position: relative;
+}
+
+.img-text3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: block;
+  background-color: #333;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.5rem;
+  letter-spacing: 10px;
+
+}
+
+#contacte-sec {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.contact-forms {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputE,
+.inputM,
+.inputMESA {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.submit-button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #2980b9;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .text-box{
+    display: flex;
+    flex-direction: column;
+  }
+  .IMAGE-1{
+  position: relative;
+  height: 100vh;
+  image-rendering: -webkit-optimize-contrast;
+  background-color: green;
+  
+}
+.react-parallax-bgimage{
+  display: flexbox;
+  width: 100vh !important; /* Override the width */
+  height: 100vh !important;  
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 70vh;
+  width: 100%;
+}
+.content span.img-text{
+    background-color: #333;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1.5rem;
+    letter-spacing: 10px;
+}
+.text-box{
+  padding: 5rem 1rem;
+  text-align: justify;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.text-box h3 {
+  color: #ffffff;
+  position: relative;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.text-box p {
+  color: #ececec;
+  line-height: 1.6;
+  width: 80%;
+  padding: 2vh;
+
+}
+
+.text-box img {
+  pad: 2vh;
+  width:90%;
+  max-height: 400px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+.IMAGE-2{
+  position: relative;
+  height: 100vh;
+  image-rendering: -webkit-optimize-contrast;
+  color: red;
+
+
+}
+.IMAGE-3{
+  position: relative;
+  height: 120vh;
+
+  image-rendering: -webkit-optimize-contrast;
+
+}
+
+#contacte-sec {
+  background-color: #333;
+  border-radius: 8px;
+}
+
+}
+
+
+@media only screen and (max-width: 800px) {
+  .text-box{
+    display: flex;
+    flex-direction: column;
+  }
+  .IMAGE-1{
+  position: relative;
+  height: 100vh;
+  image-rendering: -webkit-optimize-contrast;
+  background-color: green;
+  
+}
+.react-parallax-bgimage{
+  display: flexbox;
+  width: 100vh !important; /* Override the width */
+  height: 100vh !important;  
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 70vh;
+  width: 100%;
+}
+.content span.img-text{
+    background-color: #333;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1.5rem;
+    letter-spacing: 10px;
+}
+.text-box{
+  padding: 5rem 1rem;
+  text-align: justify;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.text-box h3 {
+  color: #ffffff;
+  position: relative;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.text-box p {
+  color: #ececec;
+  line-height: 1.6;
+  width: 80%;
+  padding: 2vh;
+
+}
+
+.text-box img {
+  pad: 2vh;
+  width:90%;
+  max-height: 400px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+.IMAGE-2{
+  position: relative;
+  height: 100vh;
+  image-rendering: -webkit-optimize-contrast;
+  color: red;
+
+
+}
+.IMAGE-3{
+  position: relative;
+  height: 120vh;
+
+  image-rendering: -webkit-optimize-contrast;
+
+}
+
+#contacte-sec {
+  background-color: #333;
+  border-radius: 8px;
+}
+
+}
